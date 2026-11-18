@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Barbershop Vikings Campinas - A melhor experiência em corte de cabelo, barba tradicional com toalha quente e estilo em Campinas. Agende seu horário!">
+  <title>Barbershop Vikings Campinas | Estilo, Tradição & Cuidado Masculino</title>
+  
+  <!-- Favicon com símbolo nórdico/viking -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚔️</text></svg>">
+  
+  <!-- Tipografia do Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Montserrat:wght@500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+      <!-- INVOCAR O CHATBOT A PARTIR DE OUTRO FICHEIRO -->
+
+<script src="chatbot.js"></script>
+<script>
+  // Inicializa o chatbot apontando para a sua base de dados extra em JSON
+  initChatbot({
+    jsonUrl: 'minha-base-dados.json'
+  });
+</script>
+
+  <!-- 1. HEADER / NAVBAR -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="#inicio" class="logo">
+        <span class="logo-icon">⚔</span> BARBERSHOP <span class="logo-accent">VIKINGS</span>
+      </a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#inicio" class="nav-link">Início</a></li>
+          <li><a href="#sobre" class="nav-link">Sobre</a></li>
+          <li><a href="#servicos" class="nav-link">Serviços</a></li>
+          <li><a href="#planos" class="nav-link">Planos</a></li>
+          <li><a href="#galeria" class="nav-link">Galeria</a></li>
+          <li><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+      <a href="#contato" class="btn btn-primary btn-sm">Agendar Horário</a>
+    </div>
+  </header>
+
+  <!-- 2. HERO SECTION -->
+  <section id="inicio" class="hero">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <span class="badge-hero">Tradição & Estilo em Campinas</span>
+        <h1 class="hero-title">O RITUAL DOS FORTES: CABELO, BARBA E RESPEITO.</h1>
+        <p class="hero-subtitle">Transforme seu visual na Barbershop Vikings. Um espaço exclusivo em Campinas para homens que valorizam alinhamento impecável, barba na navalha e atendimento de elite.</p>
+        <div class="hero-buttons">
+          <a href="#contato" class="btn btn-primary">Agendar Agora ⚔️</a>
+          <a href="#planos" class="btn btn-outline">Ver Planos</a>
+        </div>
+      </div>
+      <div class="hero-image-wrapper">
+        <div class="hero-card-mockup">
+          <div class="hero-avatar">🧔‍♂️</div>
+          <div class="hero-badge-overlay">
+            <span>⭐ Avaliação 4.9/5 no Google</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. QUEM SOMOS / NOSSA HISTÓRIA -->
+  <section id="sobre" class="sobre">
+    <div class="container sobre-container">
+      <div class="sobre-info">
+        <h2 class="section-title">NOSSA HISTÓRIA</h2>
+        <p class="sobre-text">
+          Fundada no coração de Campinas, a <strong>Barbershop Vikings</strong> foi criada para resgatar a essência do cuidado masculino clássico unida à atitude dos guerreiros nórdicos.
+        </p>
+        <p class="sobre-text">
+          Nosso espaço foi pensado para ser o seu refúgio no bairro: toalha quente, cerveja trincando, conversa de qualidade e uma equipe altamente treinada nas mais modernas técnicas de fade e barboterapia.
+        </p>
+        <div class="sobre-badges">
+          <div class="badge-item">
+            <span class="badge-icon">🛡️</span>
+            <div>
+              <strong>Desde 2018</strong>
+              <p>Tradição no bairro</p>
+            </div>
+          </div>
+          <div class="badge-item">
+            <span class="badge-icon">🪒</span>
+            <div>
+              <strong>Barboterapia</strong>
+              <p>Toalha quente e óleos</p>
+            </div>
+          </div>
+          <div class="badge-item">
+            <span class="badge-icon">🍺</span>
+            <div>
+              <strong>Bebida Cortesia</strong>
+              <p>Cerveja gelada na recepção</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sobre-visual">
+        <div class="visual-box">
+          <div class="visual-icon">⚔️</div>
+          <h3>Ambiente Viking Exclusivo</h3>
+          <p>Sinta o poder de renovar seu estilo com quem entende do assunto.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. SEÇÃO DE SERVIÇOS -->
+  <section id="servicos" class="servicos">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">NOSSOS SERVIÇOS AVULSOS</h2>
+        <p class="section-subtitle">Escolha o seu ritual e garanta o alinhamento perfeito</p>
+      </div>
+
+      <div class="cards-grid">
+        <article class="card">
+          <div class="card-icon">✂️</div>
+          <h3 class="card-title">Corte de Cabelo / Fade</h3>
+          <p class="card-desc">Corte degradê moderno ou clássico com acabamento na tesoura, alinhado ao seu tipo de rosto.</p>
+          <div class="card-price">R$ 50,00</div>
+          <a href="#contato" class="card-link">Agendar Corte →</a>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🪒</div>
+          <h3 class="card-title">Barba Tradicional</h3>
+          <p class="card-desc">Barboterapia com aplicação de toalha quente, óleos hidratantes e alinhamento preciso na navalha.</p>
+          <div class="card-price">R$ 45,00</div>
+          <a href="#contato" class="card-link">Agendar Barba →</a>
+        </article>
+
+        <article class="card highlight-card">
+          <div class="card-badge">Mais Pedido</div>
+          <div class="card-icon">⚔️</div>
+          <h3 class="card-title">Combo Viking Complete</h3>
+          <p class="card-desc">O ritual definitivo: Corte de cabelo completo + Barboterapia com toalha quente e lavagem especial.</p>
+          <div class="card-price">R$ 85,00</div>
+          <a href="#contato" class="card-link">Agendar Combo →</a>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🎨</div>
+          <h3 class="card-title">Pigmentação / Platinado</h3>
+          <p class="card-desc">Técnicas de camuflagem de fios brancos ou platinado global com produtos de alta proteção.</p>
+          <div class="card-price">R$ 90,00</div>
+          <a href="#contato" class="card-link">Agendar Química →</a>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">💆‍♂️</div>
+          <h3 class="card-title">Massagem Capilar</h3>
+          <p class="card-desc">Lavagem especial com massagem estimulante e relaxante no couro cabeludo.</p>
+          <div class="card-price">R$ 35,00</div>
+          <a href="#contato" class="card-link">Agendar Massagem →</a>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">👦</div>
+          <h3 class="card-title">Corte Viking Kids</h3>
+          <p class="card-desc">Atendimento atencioso e adaptado para os jovens guerreiros ficarem com estilo.</p>
+          <div class="card-price">R$ 40,00</div>
+          <a href="#contato" class="card-link">Agendar Kids →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. SEÇÃO DE PLANOS DE ASSINATURA -->
+  <section id="planos" class="planos">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">CLUBE VIKING DE ASSINATURA</h2>
+        <p class="section-subtitle">Mantenha o visual impecável o mês inteiro economizando de verdade</p>
+      </div>
+
+      <div class="planos-grid">
+        <!-- Plano Cabelo -->
+        <article class="plano-card">
+          <h3 class="plano-title">PLANO CABELO</h3>
+          <div class="plano-price">R$ 99,90<span>/mês</span></div>
+          <p class="plano-desc">Para o homem que não abre mão de estar sempre com o degradê alinhado.</p>
+          <ul class="plano-features">
+            <li>✓ Cortes de cabelo ilimitados no mês</li>
+            <li>✓ Lavagem com massagem capilar inclusa</li>
+            <li>✓ 1 Cerveja ou bebida cortesia por visita</li>
+            <li>✓ Desconto de 10% em produtos da loja</li>
+          </ul>
+          <a href="#contato" class="btn btn-outline btn-block">Assinar Plano Cabelo</a>
+        </article>
+
+        <!-- Plano Barba -->
+        <article class="plano-card">
+          <h3 class="plano-title">PLANO BARBA</h3>
+          <div class="plano-price">R$ 89,90<span>/mês</span></div>
+          <p class="plano-desc">Barba sempre desenhada e hidratação quinzenal sem se preocupar.</p>
+          <ul class="plano-features">
+            <li>✓ Fazer a barba ilimitadamente no mês</li>
+            <li>✓ Barboterapia com toalha quente e óleos</li>
+            <li>✓ 1 Cerveja ou bebida cortesia por visita</li>
+            <li>✓ Desconto de 10% em produtos da loja</li>
+          </ul>
+          <a href="#contato" class="btn btn-outline btn-block">Assinar Plano Barba</a>
+        </article>
+
+        <!-- Plano VIP Ragnar -->
+        <article class="plano-card plano-highlight">
+          <div class="card-badge">Melhor Custo-Benefício</div>
+          <h3 class="plano-title">VIP RAGNAR</h3>
+          <div class="plano-price">R$ 159,90<span>/mês</span></div>
+          <p class="plano-desc">A experiência completa do guerreiro nórdico. Cabelo e barba sempre perfeitos.</p>
+          <ul class="plano-features">
+            <li>✓ Cortes de Cabelo ilimitados no mês</li>
+            <li>✓ Barboterapia ilimitada no mês</li>
+            <li>✓ Prioridade na fila de agendamento</li>
+            <li>✓ Cerveja ou bebida cortesia liberada</li>
+            <li>✓ 15% de desconto em produtos da loja</li>
+          </ul>
+          <a href="#contato" class="btn btn-primary btn-block">Quero ser VIP Ragnar ⚔️</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. GALERIA DE FOTOS (SHOWCASE) -->
+  <section id="galeria" class="galeria">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">GALERIA DE CORTE E ESTILO</h2>
+        <p class="section-subtitle">Confira alguns dos trabalhos realizados por nossa equipe</p>
+      </div>
+
+      <div class="gallery-grid">
+        <figure class="gallery-item">
+          <div class="gallery-placeholder">💇‍♂️</div>
+          <figcaption class="gallery-caption">Degradê Navalhado (Mid Fade)</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <div class="gallery-placeholder">🧔‍♂️</div>
+          <figcaption class="gallery-caption">Barba Viking Modelada</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <div class="gallery-placeholder">⚔️</div>
+          <figcaption class="gallery-caption">Combo Cabelo + Barba</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <div class="gallery-placeholder">🧪</div>
+          <figcaption class="gallery-caption">Platinado Perfeito & Freestyle</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. SEÇÃO DE CONTATO & AGENDAMENTO -->
+  <section id="contato" class="contato">
+    <div class="container contato-container">
+      <div class="contato-info">
+        <h2 class="section-title">FAÇA SEU AGENDAMENTO</h2>
+        <p class="contato-desc">Evite tempo de espera. Agende seu horário com antecedência e escolha seu barbeiro de preferência.</p>
+
+        <div class="info-list">
+          <div class="info-item">
+            <span class="info-icon">📍</span>
+            <div>
+              <strong>Endereço Físico:</strong>
+              <p>BarberShop Vikings Campinas, Av. Ruy Rodriguez, 526 - Jardim Novo Campos Eliseos, Campinas - SP, 13060-192</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <span class="info-icon">🕒</span>
+            <div>
+              <strong>Horário de Funcionamento:</strong>
+              <p>Segunda a Sábado: 09h às 20h</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <span class="info-icon">📱</span>
+            <div>
+              <strong>Atendimento Direct:</strong>
+              <p>(19) 98948-3133</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="map-simulated">
+          <span>🗺️️ [Mapa Incorporado: Barbershop Vikings - Campinas/SP]</span>
+        </div>
+      </div>
+
+      <div class="contato-form-wrapper">
+        <form class="contato-form" action="#" method="POST" onsubmit="event.preventDefault(); alert('Solicitação de agendamento enviada! Entraremos em contato via WhatsApp para confirmar.');">
+          <h3>Reserve seu Horário ou Plano</h3>
+          
+          <div class="form-group">
+            <label for="nome">Nome Completo</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="seuemail@dominio.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="telefone">Telefone / WhatsApp</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="(19) 99999-9999" required>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="data">Data Desejada</label>
+              <input type="date" id="data" name="data" required>
+            </div>
+
+            <div class="form-group">
+              <label for="servico">Serviço ou Plano</label>
+              <select id="servico" name="servico" required>
+                <option value="">Selecione...</option>
+                <optgroup label="Serviços Avulsos">
+                  <option value="corte">Corte de Cabelo (R$ 50,00)</option>
+                  <option value="barba">Barba Tradicional (R$ 45,00)</option>
+                  <option value="combo">Combo Viking Complete (R$ 85,00)</option>
+                  <option value="quimica">Pigmentação / Platinado (R$ 90,00)</option>
+                  <option value="massagem">Massagem Capilar (R$ 35,00)</option>
+                  <option value="kids">Corte Viking Kids (R$ 40,00)</option>
+                </optgroup>
+                <optgroup label="Planos de Assinatura">
+                  <option value="plano-cabelo">Plano Cabelo (R$ 99,90/mês)</option>
+                  <option value="plano-barba">Plano Barba (R$ 89,90/mês)</option>
+                  <option value="plano-vip">VIP Ragnar - Cabelo + Barba (R$ 159,90/mês)</option>
+                </optgroup>
+              </select>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block">Confirmar Solicitação ⚔️</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. FOOTER (RODAPÉ) -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#inicio" class="logo">
+          <span class="logo-icon">⚔️</span> VIKINGS
+        </a>
+        <p>A melhor experiência em barbearia e cuidado masculino de Campinas.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Links Rápidos</h4>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre Nós</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#planos">Planos</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#contato">Agendamento</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-social">
+        <h4>Redes & Localização</h4>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/barbershopvikingscampinas" target="_blank" rel="noopener noreferrer" class="social-link" title="Instagram da Barbearia">📸 Instagram Oficial</a>
+          <a href="https://wa.me/5519989483133" target="_blank" rel="noopener noreferrer" class="social-link" title="WhatsApp para Atendimento">💬 WhatsApp Web</a>
+          <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="social-link" title="Localização no Google Maps">📍 Google Maps</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Barbershop Vikings Campinas. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BANNER DE AVISO DE COOKIES -->
+  <div id="banner-cookies" class="banner-cookies">
+    <p>
+      Utilizamos cookies para personalizar sua experiência. Ao continuar navegando, você concorda com a nossa política.
+    </p>
+    <button id="btn-aceitar-cookies" class="btn-cookies">Entendi e Aceito</button>
+  </div>
+
+  <!-- JAVASCRIPT DO BANNER DE COOKIES -->
+  <script>
+    const bannerCookies = document.getElementById('banner-cookies');
+    const btnAceitar = document.getElementById('btn-aceitar-cookies');
+    const cookiesAceitos = localStorage.getItem('cookiesAceitos');
+
+    if (cookiesAceitos === 'sim') {
+      bannerCookies.classList.add('oculto');
+    }
+
+    btnAceitar.addEventListener('click', () => {
+      localStorage.setItem('cookiesAceitos', 'sim');
+      bannerCookies.classList.add('oculto');
+    });
+  </script>
+
+</body>
+</html>

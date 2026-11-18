@@ -1,0 +1,52 @@
+[
+  {
+    "pergunta": "Como posso agendar um horário na barbearia?",
+    "keywords": ["agendar", "agendamento", "horário", "marcar", "reserva", "corte"],
+    "resposta": "Para agendar seu horário, acesse a página de agendamento do nosso site, escolha o serviço desejado, selecione o barbeiro e o horário disponível e confirme sua reserva."
+  },
+  {
+    "pergunta": "Quais serviços a barbearia oferece?",
+    "keywords": ["serviços", "corte", "cabelo", "barba", "sobrancelha", "acabamento", "procedimentos"],
+    "resposta": "Oferecemos serviços de barbearia, como cortes de cabelo, aparação e modelagem de barba, acabamento e outros cuidados masculinos. Consulte a página de serviços para conhecer todas as opções disponíveis."
+  },
+  {
+    "pergunta": "Como consultar os preços dos cortes e serviços?",
+    "keywords": ["preço", "preços", "valor", "valores", "custo", "tabela", "serviços"],
+    "resposta": "Você pode consultar os preços atualizados na página de serviços do nosso site. Lá, encontrará os valores de cada procedimento oferecido pela barbearia."
+  },
+  {
+    "pergunta": "Posso escolher o barbeiro que vai me atender?",
+    "keywords": ["barbeiro", "escolher", "profissional", "equipe", "atendimento", "preferência"],
+    "resposta": "Sim! Se o agendamento estiver disponível para diferentes profissionais, você poderá escolher seu barbeiro preferido ao marcar um horário, conforme a disponibilidade da agenda."
+  },
+  {
+    "pergunta": "Como faço para cancelar ou remarcar um agendamento?",
+    "keywords": ["cancelar", "cancelamento", "remarcar", "reagendar", "alterar", "desmarcar", "horário"],
+    "resposta": "Para cancelar ou remarcar seu agendamento, acesse a opção de gerenciamento de reservas do site ou entre em contato diretamente com a barbearia. Verifique as condições e os prazos para alterações."
+  },
+  {
+    "pergunta": "Quais são os dias e horários de funcionamento da barbearia?",
+    "keywords": ["horário", "funcionamento", "aberto", "fecha", "abre", "dias", "expediente"],
+    "resposta": "Os dias e horários de funcionamento estão disponíveis na página de contato do nosso site. Recomendamos consultar essas informações antes de visitar a barbearia."
+  },
+  {
+    "pergunta": "Preciso agendar com antecedência ou posso chegar sem marcar?",
+    "keywords": ["antecedência", "agendar", "encaixe", "sem agendamento", "fila", "disponibilidade", "atendimento"],
+    "resposta": "Recomendamos agendar com antecedência para garantir seu atendimento no horário desejado. Atendimentos sem agendamento podem depender da disponibilidade dos barbeiros."
+  },
+  {
+    "pergunta": "Quais formas de pagamento são aceitas?",
+    "keywords": ["pagamento", "pagar", "pix", "dinheiro", "cartão", "crédito", "débito", "formas de pagamento"],
+    "resposta": "As formas de pagamento aceitas podem ser consultadas na página de informações da barbearia ou diretamente com nossa equipe. Entre em contato para confirmar as opções disponíveis antes do atendimento."
+  },
+  {
+    "pergunta": "Como posso entrar em contato com a barbearia?",
+    "keywords": ["contato", "telefone", "whatsapp", "mensagem", "endereço", "falar", "atendimento"],
+    "resposta": "Você pode encontrar nossos canais de atendimento, telefone, WhatsApp e endereço na página de contato do site, conforme as informações disponibilizadas pela barbearia."
+  },
+  {
+    "pergunta": "Como posso conhecer os cortes e estilos oferecidos pela barbearia?",
+    "keywords": ["estilos", "modelos", "fotos", "galeria", "degradê", "fade", "corte masculino", "inspiração"],
+    "resposta": "Acesse a galeria de fotos do nosso site para conferir exemplos de cortes e estilos. Se estiver em dúvida sobre qual escolher, converse com o barbeiro para encontrar uma opção adequada à sua preferência."
+  }
+]
